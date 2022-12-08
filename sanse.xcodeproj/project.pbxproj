@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		697B35882940B2FB003DD897 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697B35872940B2FB003DD897 /* Ticket.swift */; };
+		697B358A2940CB9E003DD897 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697B35892940CB9E003DD897 /* Tickets.swift */; };
+		697B358C29422178003DD897 /* info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697B358B29422178003DD897 /* info.swift */; };
+		697B358E294221FB003DD897 /* cardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697B358D294221FB003DD897 /* cardData.swift */; };
+		697B359329422355003DD897 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697B359229422355003DD897 /* Cards.swift */; };
+		697B3596294223A1003DD897 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697B3595294223A1003DD897 /* CircleBackground.swift */; };
 		697B65CF293F6BC900C31D44 /* sanseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697B65CE293F6BC900C31D44 /* sanseApp.swift */; };
 		697B65D1293F6BC900C31D44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697B65D0293F6BC900C31D44 /* ContentView.swift */; };
 		697B65D3293F6BCA00C31D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 697B65D2293F6BCA00C31D44 /* Assets.xcassets */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		697B35872940B2FB003DD897 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		697B35892940CB9E003DD897 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
+		697B358B29422178003DD897 /* info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = info.swift; sourceTree = "<group>"; };
+		697B358D294221FB003DD897 /* cardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardData.swift; sourceTree = "<group>"; };
+		697B359229422355003DD897 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		697B3595294223A1003DD897 /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
 		697B65CB293F6BC900C31D44 /* sanse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sanse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		697B65CE293F6BC900C31D44 /* sanseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sanseApp.swift; sourceTree = "<group>"; };
 		697B65D0293F6BC900C31D44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +83,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		697B3591294222F4003DD897 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				697B358D294221FB003DD897 /* cardData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		697B359429422375003DD897 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				697B3595294223A1003DD897 /* CircleBackground.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		697B65C2293F6BC900C31D44 = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +123,13 @@
 			isa = PBXGroup;
 			children = (
 				697B65CE293F6BC900C31D44 /* sanseApp.swift */,
+				697B35872940B2FB003DD897 /* Ticket.swift */,
+				697B359429422375003DD897 /* UI */,
+				697B35892940CB9E003DD897 /* Tickets.swift */,
+				697B3591294222F4003DD897 /* Data */,
 				697B65D0293F6BC900C31D44 /* ContentView.swift */,
+				697B359229422355003DD897 /* Cards.swift */,
+				697B358B29422178003DD897 /* info.swift */,
 				697B65D2293F6BCA00C31D44 /* Assets.xcassets */,
 				697B65D4293F6BCA00C31D44 /* Preview Content */,
 			);
@@ -257,8 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				697B358C29422178003DD897 /* info.swift in Sources */,
 				697B65D1293F6BC900C31D44 /* ContentView.swift in Sources */,
+				697B35882940B2FB003DD897 /* Ticket.swift in Sources */,
+				697B3596294223A1003DD897 /* CircleBackground.swift in Sources */,
+				697B359329422355003DD897 /* Cards.swift in Sources */,
 				697B65CF293F6BC900C31D44 /* sanseApp.swift in Sources */,
+				697B358A2940CB9E003DD897 /* Tickets.swift in Sources */,
+				697B358E294221FB003DD897 /* cardData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
