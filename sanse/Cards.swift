@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct Cards: View {
+    @Environment(\.presentationMode) var presentationMode2
     @State var ShowSheet : Bool=false
     @State var animate: Bool = false
     @Environment(\.colorScheme) var colorScheme
     var body: some View {
+     
         ZStack {
             CircleBackground(color: Color("greenCircle"))
                 .blur(radius: animate ? 30 : 100)
@@ -30,8 +32,9 @@ struct Cards: View {
                         animate.toggle()
                     }
                 }
-            
+          
            
+         
         
                 Tickets()
                 .padding(.top, 30)

@@ -8,14 +8,33 @@
 import SwiftUI
 
 struct Tickets: View {
+    @Environment(\.colorScheme) var colorScheme2
     @State var tickets: [TicketModel] = [
         TicketModel(image: "thor", title: "Thor", subtitle: "Love and Thunder", top: "thor-top", bottom: "thor-bottom"),
         TicketModel(image: "panther", title: "Black Panther", subtitle: "Wakanda Forever", top: "panther-top", bottom: "panther-bottom"),
         TicketModel(image: "scarlet", title: "Doctor Strange", subtitle: "in the Multiverse of Madness", top: "scarlet-top", bottom: "scarlet-bottom")
     ]
-    
+    @Environment(\.presentationMode) var presentationMode2
     var body: some View {
-        VStack{ Text("Books")
+        
+        VStack{HStack{ Button{
+            presentationMode2.wrappedValue.dismiss()
+        }label: {
+            
+            Image(systemName: "chevron.left")
+                .bold()
+                .foregroundColor(colorScheme2 == .dark ? Color("pinkCircle") : Color("purple"))
+
+            Text("Back")
+                .bold()
+                .foregroundColor(colorScheme2 == .dark ? Color("pinkCircle") : Color("purple"))
+
+            
+        }.offset(x:20 , y: 20)
+            Spacer()
+                
+        }
+            Text("Books")
                 .font(.system(size: 24))
                 .bold()
                 .offset(y:150)

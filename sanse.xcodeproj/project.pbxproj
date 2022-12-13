@@ -13,6 +13,8 @@
 		697B358E294221FB003DD897 /* cardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697B358D294221FB003DD897 /* cardData.swift */; };
 		697B359329422355003DD897 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697B359229422355003DD897 /* Cards.swift */; };
 		697B3596294223A1003DD897 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697B3595294223A1003DD897 /* CircleBackground.swift */; };
+		697B359829422F90003DD897 /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697B359729422F90003DD897 /* ScrollSection.swift */; };
+		697B359A29423032003DD897 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697B359929423032003DD897 /* BookingView.swift */; };
 		697B65CF293F6BC900C31D44 /* sanseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697B65CE293F6BC900C31D44 /* sanseApp.swift */; };
 		697B65D1293F6BC900C31D44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697B65D0293F6BC900C31D44 /* ContentView.swift */; };
 		697B65D3293F6BCA00C31D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 697B65D2293F6BCA00C31D44 /* Assets.xcassets */; };
@@ -46,6 +48,8 @@
 		697B358D294221FB003DD897 /* cardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardData.swift; sourceTree = "<group>"; };
 		697B359229422355003DD897 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 		697B3595294223A1003DD897 /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
+		697B359729422F90003DD897 /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
+		697B359929423032003DD897 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
 		697B65CB293F6BC900C31D44 /* sanse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sanse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		697B65CE293F6BC900C31D44 /* sanseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sanseApp.swift; sourceTree = "<group>"; };
 		697B65D0293F6BC900C31D44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,8 +132,10 @@
 				697B35892940CB9E003DD897 /* Tickets.swift */,
 				697B3591294222F4003DD897 /* Data */,
 				697B65D0293F6BC900C31D44 /* ContentView.swift */,
+				697B359729422F90003DD897 /* ScrollSection.swift */,
 				697B359229422355003DD897 /* Cards.swift */,
 				697B358B29422178003DD897 /* info.swift */,
+				697B359929423032003DD897 /* BookingView.swift */,
 				697B65D2293F6BCA00C31D44 /* Assets.xcassets */,
 				697B65D4293F6BCA00C31D44 /* Preview Content */,
 			);
@@ -293,7 +299,9 @@
 			files = (
 				697B358C29422178003DD897 /* info.swift in Sources */,
 				697B65D1293F6BC900C31D44 /* ContentView.swift in Sources */,
+				697B359829422F90003DD897 /* ScrollSection.swift in Sources */,
 				697B35882940B2FB003DD897 /* Ticket.swift in Sources */,
+				697B359A29423032003DD897 /* BookingView.swift in Sources */,
 				697B3596294223A1003DD897 /* CircleBackground.swift in Sources */,
 				697B359329422355003DD897 /* Cards.swift in Sources */,
 				697B65CF293F6BC900C31D44 /* sanseApp.swift in Sources */,
