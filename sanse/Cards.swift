@@ -23,7 +23,7 @@ struct Cards: View {
                         animate.toggle()
                     }
                 }
-            
+
             CircleBackground(color: Color("pinkCircle"))
                 .blur(radius: animate ? 30 : 100)
                 .offset(x: animate ? 100 : 130, y: animate ? 150 : 100)
@@ -32,9 +32,8 @@ struct Cards: View {
                         animate.toggle()
                     }
                 }
-          
+
            
-         
         
                 Tickets()
                 .padding(.top, 30)
