@@ -1,13 +1,11 @@
 //
-//  choice.swift
+//  choice2.swift
 //  sanse
 //
-//  Created by zainab saad alsayed on 20/05/1444 AH.
+//  Created by zainab saad alsayed on 25/05/1444 AH.
 //
 
-import SwiftUI
-
-struct choice: View {
+struct choice2: View {
     @State var Showsheet: Bool = false
     @State var animate: Bool = false
     @Environment(\.colorScheme) var colorScheme
@@ -55,35 +53,30 @@ struct choice: View {
                 Button{ Showsheet.toggle()}label: {
                     VStack{
                         HStack{
-                            Image("chatg2")
+                            Image("chat")
                                 .resizable()
-                                .frame(width: 180.0 , height: 180.0)
+                                .frame(width: 180.0 , height: 170.0)
                                 .scaledToFit()
-                            Image("chatg")
+                            Image("chat2")
                                 .resizable()
-                                .frame(width: 180 , height: 184)
+                                .frame(width: 150 , height: 140)
                                 .scaledToFit()
                         }
-                        Button{}label: {
-                            Text("talk to someone")
-                                .font(.system(size: 20))
-                                .frame(width: 180, height: 40)
-                                .foregroundColor(Color.white)
-                                .background(LinearGradient(gradient: Gradient(colors: [CustomColr.Button, CustomColr.GButton]), startPoint: .leading, endPoint: .trailing)).cornerRadius(50)
-                        }}
-                                    }
+                        Text("talk to someone")}
+                    
+                }
                 
                 .sheet(isPresented:  $Showsheet){
                     VStack{
                         HStack{
-                            Image("chatg2")
+                            Image("chat")
                                 .resizable()
                                 .frame(width: 180 , height: 180)
                                 .scaledToFit()
                             //     .frame(width: 200 , height: 180)
-                            Image("chatg")
+                            Image("chat2")
                                 .resizable()
-                                .frame(width: 180.0 , height: 184.0)
+                                .frame(width: 160.0 , height: 155.0)
                                 .scaledToFit()
                         }
                     }
@@ -113,32 +106,22 @@ struct choice: View {
                     VStack{  Image("rec")
                             .resizable()
                             .frame(width: 180.0 , height: 190.0)
-                        Button{}label: {
-                            Text("see recumndation")
-                                .font(.system(size: 20))
-                                .frame(width: 180, height: 40)
-                                .foregroundColor(Color.white)
-                                .background(LinearGradient(gradient: Gradient(colors: [CustomColr.Button, CustomColr.GButton]), startPoint: .leading, endPoint: .trailing)).cornerRadius(50)
-                        }
-                                   }
+                           
+                                   Text("see recumondation")}
                 }
             }
         }
     }
 
-
-        
-}
-      
-    struct customColr {
-        static let Button = Color("Butoon")
-        static let GButton = Color("GButton")
-        
-    }
-    struct choise_Previews: PreviewProvider {
-        static var previews: some View {
-            choice()
+       
         }
+                                                                                                                                                                                struct CustomColr {
+                                                                                                                                                                              static let Button = Color("Butoon")
+                                                                                                                                                                                                                 static let GButton = Color("GButton")
+                                                               
+                                                                                                                                                                                                             }
+struct choise2_Previews: PreviewProvider {
+    static var previews: some View {
+        choice2()
     }
-    
-
+}

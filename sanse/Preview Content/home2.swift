@@ -85,7 +85,7 @@ struct home2: View {
                             } label: {
                                 Image("sadness2")
                                     .resizable()
-                                    .frame(width: 180,height: 160)
+                                    .frame(width: 170,height: 140)
                                     .cornerRadius(10)
                             }
                             Text("Sadneees")
@@ -101,7 +101,7 @@ struct home2: View {
                             } label: {
                                 Image("anger2")
                                     .resizable()
-                                    .frame(width: 180,height: 160)
+                                    .frame(width: 180,height: 180)
                                     .cornerRadius(10)
                             }
                             Text("Anger")
